@@ -1,0 +1,17 @@
+.face1 {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.face1 .pip:nth-child(2) {
+    align-self: center;
+}
+
+.face1 .pip:nth-child(3) {
+    align-self: flex-end;
+}
+
+.face2 {
+    display: inline-flex;
+    justify-content: space-between;
+}

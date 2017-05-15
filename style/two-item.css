@@ -1,0 +1,41 @@
+.face1 {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.face2 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.face3 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.face4 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.face5 {
+    display: inline-flex;
+}
+
+.face5 .pip:nth-child(2) {
+    align-self: center;
+}
+
+.face6 {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.face6 .pip:nth-child(2) {
+    align-self: flex-end;
+}

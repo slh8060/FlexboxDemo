@@ -1,0 +1,50 @@
+
+.face1 {
+    display: inline-flex;
+}
+
+.face2 {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.face3 {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.face4 {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.face5 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face6 {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.face7 {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.face8 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.face9 {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

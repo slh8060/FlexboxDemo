@@ -1,0 +1,66 @@
+.face1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+
+.face2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.face3 {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.face3 .wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*五个项目*/
+.face4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.face4 .wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.face4 .wrap:nth-child(2) {
+    justify-content: center;
+}
+
+
+/*六个项目*/
+.face5 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.face6 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+/*九个项目*/
+.face7 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}

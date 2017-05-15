@@ -1,0 +1,31 @@
+body {
+    background: #000;
+}
+
+.common-face {
+    margin: 16px;
+    width: 104px;
+    height: 104px;
+    background: #e7e7e7;
+    box-shadow:
+            inset 0 5px white,
+            inset 0 -5px #bbb,
+            inset 5px 0 #d7d7d7,
+            inset -5px 0 #d7d7d7;
+
+}
+
+.pip {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #333;
+    margin: 4px;
+}
+
+p {
+    color: #fff;
+    padding-left: 10px;
+    font-size: 16px;
+}
